@@ -936,7 +936,7 @@
                 experiences</p>
             <div class="cta-buttons">
                 <a href="#contact" class="btn primary">Hire Me</a>
-                <a href="My new CV.pdf" class="btn secondary">Download CV</a>
+                <a href="My new cv.pdf" class="btn secondary">Download CV</a>
             </div>
         </div>
     </section>
@@ -1049,32 +1049,34 @@
             <!-- Project 1 -->
             <div class="project-card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
                 <!-- Placeholder image retains dark surface color -->
-                <img src="01.png"
-                    alt="Health Care System">
+                <img src="01.png" alt="Health Care System">
                 <div class="project-info">
                     <h3>URL Shortner</h3>
                     <p>Olara is a sleek and responsive landing page designed for a modern URL shortener platform</p>
-                    <a href="https://www.figma.com/design/ogxvvkvjS6a7F1FSrEWBHZ/URL-Shortner?node-id=0-1&p=f&t=dMZF5piJ4CYKv04G-0" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://www.figma.com/design/ogxvvkvjS6a7F1FSrEWBHZ/URL-Shortner?node-id=0-1&p=f&t=dMZF5piJ4CYKv04G-0"
+                        target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <!-- Project 2 -->
             <div class="project-card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
-                <img src="02.png"
-                    alt="Toll Control System">
+                <img src="02.png" alt="Toll Control System">
                 <div class="project-info">
                     <h3>Pride Music Landing Page</h3>
-                    <p>This Music Landing Page was designed to capture the energy and emotion of modern sound experiences</p>
-                    <a href="https://www.figma.com/design/AHBfDm67UC25k86S4CvIAV/Pride-music?node-id=0-1&p=f&t=mgkWcCyzho8CD1SX-0" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                    <p>This Music Landing Page was designed to capture the energy and emotion of modern sound
+                        experiences</p>
+                    <a href="https://www.figma.com/design/AHBfDm67UC25k86S4CvIAV/Pride-music?node-id=0-1&p=f&t=mgkWcCyzho8CD1SX-0"
+                        target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <!-- Project 3 -->
             <div class="project-card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
-                <img src="03.png"
-                    alt="Blogging Platform">
+                <img src="03.png" alt="Blogging Platform">
                 <div class="project-info">
                     <h3>VR ZONE</h3>
-                    <p>VR Zone is a next-generation virtual reality website designed to showcase immersive digital experiences</p>
-                    <a href="https://www.figma.com/design/VTNib3WzpCxpmRX2odb0Tv/VR-ZONE?node-id=0-1&p=f&t=Jgx1AxiJm13peLDR-0" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                    <p>VR Zone is a next-generation virtual reality website designed to showcase immersive digital
+                        experiences</p>
+                    <a href="https://www.figma.com/design/VTNib3WzpCxpmRX2odb0Tv/VR-ZONE?node-id=0-1&p=f&t=Jgx1AxiJm13peLDR-0"
+                        target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -1086,19 +1088,29 @@
         <div class="achievement-container">
             <div class="certificate-card">
                 <h3>Python for Beginners certification Course</h3>
-                <p class="issuer">Issued by: University of Moratuwa - 2022</p>
-            </div><br/>
-            <div class="certificate-card">
                 <h3>Web Design for Beginners certification Course</h3>
                 <p class="issuer">Issued by: University of Moratuwa - 2022</p>
-            </div><br/>
+            </div><br />
+            <div class="certificate-card">
+                <h3>Introduction to Graphic Design; Basics of UI/UX </h3>
+                <p class="issuer">Issued by: Simplilearn - 2025</p>
+            </div><br />
+            <div class="certificate-card">
+                <h3>Introduction to UI/UX Design </h3>
+                <p class="issuer">Issued by: LearnTube.ai - 2025</p>
+            </div><br />
             <div class="certificate-card">
                 <h3>Diploma in Secure MEAN Stack Developer</h3>
-                <p class="issuer">Issued by: Alison - 2025</p>
-            </div><br/>
-            <div class="certificate-card">
                 <h3>How to Become a Cloud Architect</h3>
                 <p class="issuer">Issued by: Alison - 2025</p>
+            </div><br />
+            <div class="certificate-card">
+                <h3>Information and Communication Technology </h3>
+                <p class="issuer">Issued by: Nenasala (ICTA ideas actioned) - 2018</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Intel Easy Steps Basic Course  </h3>
+                <p class="issuer">Issued by: Nenasala - 2018</p>
             </div>
         </div>
     </section>
@@ -1314,26 +1326,26 @@
                 });
             });
         });
-        document.addEventListener("DOMContentLoaded", function() {
-  const form = document.querySelector("form");
-  
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector("form");
 
-    const name = form.querySelector('input[name="name"]').value.trim();
-    const email = form.querySelector('input[name="email"]').value.trim();
-    const message = form.querySelector('textarea[name="message"]').value.trim();
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
 
-    if (!name || !email || !message) {
-      alert("⚠️ Please fill in all fields before sending.");
-      return;
-    }
+                const name = form.querySelector('input[name="name"]').value.trim();
+                const email = form.querySelector('input[name="email"]').value.trim();
+                const message = form.querySelector('textarea[name="message"]').value.trim();
 
-    // Simulated success message
-    alert("✅ Message sent successfully! Thank you for reaching out, " + name + ".");
-    form.reset(); // clear form after sending
-  });
-});
+                if (!name || !email || !message) {
+                    alert("⚠️ Please fill in all fields before sending.");
+                    return;
+                }
+
+                // Simulated success message
+                alert("✅ Message sent successfully! Thank you for reaching out, " + name + ".");
+                form.reset(); // clear form after sending
+            });
+        });
     </script>
 </body>
 
